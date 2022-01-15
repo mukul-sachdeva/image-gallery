@@ -1,0 +1,33 @@
+/**
+ * List of all tables as constants
+ */
+module.exports = {
+  TRNX_DEPOSIT: "trnx_deposit",
+  TRNX_WITHDRAW: "trnx_withdraw",
+  FIAT_TRNX_DEPOSIT: "fiat_deposit",
+  FIAT_TRNX_WITHDRAW: "fiat_withdraw",
+  USER_WALLET_RELATION: "user_wallet_relation",
+  COSIGNERS: "cosigners",
+  TRNX_WITHDRAW_COSINGER: "trnx_withdrawal_cosigner",
+  WALLET_NONCE: "wallets_nonce",
+  WALLETS: "wallets",
+  USERS: "users",
+  USER_PAYEE: "user_payee",
+  COINS: "coins",
+  TX_LOGS: "trnx_withdraw_status_logs",
+  NOTIFICATIONS: "notifications",
+  BLOCKLIST: "block_list",
+  CHAT: "chat",
+  CHAT_THREAD: "chat_thread",
+  COUNTRY_CODES: "country_codes",
+  CURRENCY_FIAT: "currency_fiat",
+  DAPP: "dapp",
+  GROUPS: "groups",
+  GROUP_MEMBERS: "group_members",
+  OTP_CODE: "otp_code",
+  PAGE_ABOUT_US: "page_about_us",
+  REMOVE_REQUEST_COSIGNER: "remove_request_cosigner",
+  BACKUP_REQUEST_COSIGNER: "backup_request_cosigner",
+  WITHDRAW_LIMIT_REQUEST_COSIGNER: "withdraw_limit_request_cosigner",
+  ONOFF_3FA_REQUEST_COSIGNER: "onoff_3fa_request_cosigner",
+};
